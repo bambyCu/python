@@ -1,0 +1,11 @@
+from turtle import *
+lenght = 5
+degree = 20
+while True:
+	forward(lenght)
+	left(degree)
+	degree = degree - 0.25
+	print(degree)
+	if degree < -21.5 :
+        	break
+done()

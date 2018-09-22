@@ -1,0 +1,36 @@
+from turtle import *
+lenght = 50
+#lu = 1
+#ld = 2
+#ru = 3
+#rd = 4
+movements = "u3124"
+def go(n):
+	if n == "u": 
+		setheading(90)
+		forward(lenght)
+	if n == "l":
+		setheading(180)
+		forward(lenght)
+	if n == "r":
+		setheading(0)
+		forward(lenght)
+	if n == "d":
+		setheading(270)
+		forward(lenght)
+	if n == "4":
+		setheading(315)
+		forward(lenght)
+	if n == "3":
+		setheading(45)
+		forward(lenght)
+	if n == "2":
+		setheading(225)
+		forward(lenght)
+	if n == "1":
+		setheading(135)
+		forward(lenght)
+
+
+for i in range (len(movements)):
+	go(movements[i])

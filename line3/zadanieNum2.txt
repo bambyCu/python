@@ -1,0 +1,8 @@
+from turtle import *
+color('black')
+lenght = 50
+size = 5
+for i in range(size):
+        forward(lenght)
+        left(360/size)
+done()

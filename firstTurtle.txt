@@ -1,0 +1,17 @@
+from turtle import *
+color('white', 'white')
+counter = 0
+forwardLenght = 500
+operator = 1
+color('red', 'white')
+begin_fill()
+left(30)
+while True:
+	forward(forwardLenght)
+	left(144)
+	if counter % 5 == 0 :
+        	forwardLenght = forwardLenght -	10
+	if forwardLenght < 30 :
+        	break
+end_fill()
+done()

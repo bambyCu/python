@@ -1,0 +1,23 @@
+from turtle import *
+lenght = 50
+#lu = 1
+#ld = 2
+#ru = 3
+#rd = 4
+movements = "r11r22"
+def go(n):
+	if n == "r":
+		setheading(0)
+		forward(lenght)
+	if n == "2":
+		setheading(240)
+		forward(lenght)
+	if n == "1":
+		setheading(120)
+		forward(lenght)
+
+
+for i in range (len(movements)):
+	go(movements[i])
+
+done()

@@ -1,0 +1,12 @@
+from turtle import *
+lenght = 50
+def triangel():
+	for i in range(4):
+		forward(lenght)
+		if i < 3:
+			left(120)
+
+for i in range(7):
+	triangel()
+	right(360/7)
+done()

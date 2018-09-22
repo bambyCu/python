@@ -1,0 +1,15 @@
+from turtle import *
+
+speed(50)
+counter = 0
+forwardLenght = 300
+operator = 1
+left(30)
+while True:
+	forward(forwardLenght)
+	left(144)
+	if counter % 5 == 0 :
+        	forwardLenght = forwardLenght -	2
+	if forwardLenght < 20 :
+        	break
+done()

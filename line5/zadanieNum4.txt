@@ -1,0 +1,18 @@
+from turtle import *
+lenght = 60
+def object():
+	forward(lenght)
+	left(90)
+	forward(lenght/3)
+	left(90)
+	forward(lenght)
+	left(90)
+	forward(lenght/3)
+	left(90)
+	forward(lenght)
+	
+
+for i in range(9):
+	object()
+	right(360/9)
+done()

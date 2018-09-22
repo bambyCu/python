@@ -1,0 +1,12 @@
+from turtle import *
+lenght = 50
+degrees = 160
+left(81)
+for i in range (10):
+	forward(lenght)
+	right(degrees)
+	degrees = degrees - 8
+	forward(lenght)
+	left(degrees)
+	degrees = degrees - 8
+done()

@@ -1,0 +1,17 @@
+from turtle import *
+lenght = 10
+forward(50)
+left(135)
+forward(70.7)
+right(135)
+forward(50)
+right(135)
+forward(70.7)
+right(135)
+forward(50)
+right(45)
+forward(70.7 / 2)
+right(90)
+forward(70.7 / 2)
+right(45)
+forward(50)

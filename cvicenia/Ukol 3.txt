@@ -1,0 +1,13 @@
+from turtle import *
+
+def spiral_star():
+	counter = 0
+	lenght = 200
+	coeficient = 3
+	left(30)
+	while lenght > 10 :
+		forward(lenght)
+		left(144)
+		if counter % 5 == 0 :
+ 		       	lenght = lenght - coeficient
+spiral_star()

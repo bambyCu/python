@@ -1,0 +1,28 @@
+from turtle import *
+lenght = 50
+amount = 12
+speed(50)
+def object():
+	forward(lenght)
+	left(72)
+	forward(lenght)
+	left(108)
+	forward(lenght)
+	left(72)
+	forward(lenght)
+	left(180)
+for i in range(5):
+	object()
+left(36)
+for i in range(5):
+	object()
+forward(lenght)
+left(72)
+forward(lenght)
+left(72)
+for i in range(10):
+
+	forward(lenght)
+	left(36)
+
+done()

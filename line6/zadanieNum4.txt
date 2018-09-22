@@ -1,0 +1,23 @@
+from turtle import *
+lenght = 60
+speed(50)
+def object():
+	#left(144)
+	forward(lenght)
+	left(108)
+	forward(34.7)
+	left(108)
+	forward(lenght)
+	left(180 + 53)
+
+	
+
+for i in range(17):
+#	
+	if i != 16:
+		object()
+	forward(30)
+	left(270)
+	right(22.5)
+
+done()

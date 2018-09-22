@@ -1,0 +1,9 @@
+from turtle import *
+
+def spiral(n, angle, step):
+    for i in range(n):
+        forward(i * step)
+        right(angle)
+
+spiral(100, 61, 1)
+done()

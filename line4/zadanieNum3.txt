@@ -1,0 +1,4 @@
+from turtle import *
+for i in range(100):
+        forward(i * 1)
+        right(61)

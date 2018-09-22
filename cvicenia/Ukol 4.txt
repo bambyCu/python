@@ -1,0 +1,12 @@
+from turtle import *
+
+lenght = 20
+def printObject():
+	for i in range(12):
+		for i in range(12):
+			forward(lenght)
+			if i < 11:
+				left(360/12)
+printObject()
+
+done()

@@ -1,0 +1,12 @@
+from turtle import *
+lenght = 20
+size = 12
+amount = 12
+def object():
+	for i in range(size):
+		forward(lenght)
+		if i < 11:
+			left(360/size)
+for i in range(amount):
+	object()
+done()

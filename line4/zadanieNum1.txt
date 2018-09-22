@@ -1,0 +1,11 @@
+from turtle import *
+lenght = 100
+counter = 0
+while True:
+	forward(lenght)
+	left(90)
+	if counter % 4 == 0 :
+        	lenght = lenght - 3
+	if lenght < 5 :
+        	break
+done()

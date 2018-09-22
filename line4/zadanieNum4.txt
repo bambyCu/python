@@ -1,0 +1,4 @@
+from turtle import *
+for i in range(36):
+        forward((i*i)/2)
+        right(60)
